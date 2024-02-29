@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="imagenes/logoPatricioRey.png">
+    <title>Venta Entradas</title>
+</head>
+<body>
+    <div class="principal">
+
+        <header id="tituloLogo">
+            <h1> Patricio Rey y Sus Redonditos de Ricota </h1>
+            <div class="logo">  
+            </div>
+        </header>
+        
+        <nav class="menuNavegacion">
+            <ul>
+                <li>
+                    <a href="index.html#inicio">Incio</a>
+                </li>
+
+                <li>
+                    <a href="index.html#walter">Walter</a>
+                </li>
+
+                <li>
+                    <a href="index.html#ultimosAños">Ultimos años</a>
+                </li>
+
+                <li>
+                    <a href="discografia.html#discografia">Discografia</a>
+                </li>
+
+                <li>
+                    <a href="index.html#rock">Rock</a>
+                </li>
+
+                <li class="navegacion">
+                    <a href="#ventaEntradas">Entradas</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <div class="titulos">
+                    <h2>Sorteo Entradas(bandas tributos)</h2>
+                </div>
+
+                <!-- <div>
+                    <p>
+                        Para validar tu identidad como unico requisito te vamos a pedir que nos adjuntes una foto de tu DNI.
+                    </p>
+                </div> -->
+            </section>
+
+
+
+            <section class="contenedorForm"> 
+                <form action="gracias.html" merthod="post" enctype="multipart/form-data">
+                    <span id="requisito">Participa de sorteos para tus bandas tributos favoritas, unico requisito para participar es enviarnos foto del dni.</span>
+
+                    <fieldset>
+                        <span>Nombre:</span>
+                        <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su Nombre"/>
+                   
+                        <span>Apellido:</span>
+                        <input type="text" name="nombre" id="apellido" required placeholder="Ingrese su Apellido"/>
+                   
+                        <span>Email:</span>
+                        <input type="text" name="email" id="email" required placeholder="Ingrese su email"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <span>Elegi una banda tributo para participar del sorteo</span>
+                        <select name="recital" required class="recitales">
+                            <option value="ReyGarufa">Rey Garufa</option>
+                            <option value="LaKermesse">La Kermesse</option>
+                            <option value="Superlogico">Superlogico</option>
+                            <option value="La Walter">La Walter Oficial</option>
+                            <option value="TareaFina">TareaFina</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <span>Por donde te gustaria que te contacten</span>
+                            <label>Por WhatsApp
+                                <input name="contacto" value="telefono" type="radio" required checked>
+                            </label>
+                            <label>Por Email
+                                <input name="contacto" value="email" type="radio">
+                            </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <span>Envianos foto del DNI</span>
+                        <input type="file" accept="image/jpeg" required name="DNI" id="fotoDNI">
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="submit" value="Enviar" id="enviar">
+                    </fieldset>
+
+                </form>
+            </section>
+
+            <section id="infooo">
+
+
+
+
+
+            </section>
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+
+            <h2 class="redes"> Redes cercanas a la banda </h2>
+
+            <ul class="centrarRedes">
+                <li><a href="https://www.instagram.com/redondossubtitulados/" target="_blank" class="instagram" > Instagram </a></li>
+                <li><a href="https://twitter.com/subtitulados_ok" target="_blank" class="twitter" > Twitter </a></li>
+                <li><a href="https://www.facebook.com/subtitulada" target="_blank" class="facebook" > Facebook </a></li>
+                <li><a href="https://www.youtube.com/@RedondosSubtitulados" target="_blank" class="youtube" > YouTube </a></li>
+                <li><a href="https://open.spotify.com/intl-es/artist/6byQKddO1b34lXC2ZEjehQ?si=pkTtdu06SyCvByzes3F3Eg" target="_blank" class="spotify" > Spotify </a></li>
+            </ul>
+
+            <p class="informacion">
+                <strong><em>Lucas Raboni / Maquetado y Desarrollo Web / Mabel Garcia / Final / 2024</em></strong>
+            </p>
+
+            <p class="terminos">
+                <strong><em> &COPY; 2024 Lucas Raboni. Todos los derechos reservados. Terminos y condiciones</em></strong>
+            </p>
+        </footer>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
