@@ -56,12 +56,11 @@ header h1{
 #tituloLogo{
     height: 277px;
     width: 1366px;
-    border: 2px solid transparent;
+    padding-top: 20px;
     background: url(../imagenes/backHeader1366.jpg) no-repeat;
 }
 
  .menuNavegacion{
-    border: solid transparent 1px; 
     width: 1366px;
     height: auto;
     font-size: 25px;
@@ -69,6 +68,9 @@ header h1{
     text-align: center;
     font-family: 'freestyleMenu';
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
  ul li{
@@ -455,7 +457,7 @@ fieldset{
 
     .logo{
         text-align:center;
-        border:solid transparent;
+        /* border:solid transparent; */
         background-image: url(../imagenes/ImagenesMobile/logoPatricioRey.png);
         width: 60px;
         height: 60px;
@@ -467,7 +469,6 @@ fieldset{
         background: url(../imagenes/ImagenesMobile/backHeader.jpg) no-repeat;
     }
     .menuNavegacion{
-        border: solid transparent 1px; 
         width: 480px;
         height: auto;
         font-size: 14px;
@@ -573,7 +574,6 @@ fieldset{
     }
 
     footer{
-        border: solid 1px transparent;
         height: 290px;
         background-color: white;
         margin: 0 auto;
